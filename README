@@ -1,0 +1,10 @@
+
+jQuery.sharelinks.js
+
+Function to attach links for social bookmark ( network ) services to anchor elements.
+
+Version : 1.0
+Author : mach3
+Website : http://blog.mach3.jp
+Requires : jQuery
+

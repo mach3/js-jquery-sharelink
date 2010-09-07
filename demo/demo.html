@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>[DEMO] jQuery.sharelink()</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../jquery.sharelink.js"></script>
+	
+</head>
+<body>
+<h1>[DEMO] jQuery.sharelink()</h1>
+	
+<ul>
+	<li><a href="#" class="share-twitter">Twitter</a></li>
+	<li><a href="#" class="share-facebook">Facebook</a></li>
+	<li><a href="#" class="share-livedoor">Livedoorクリップ</a></li>
+	<li><a href="#" class="share-hatena">はてなブックマーク</a></li>
+	<li><a href="#" class="share-delicious">Delicious</a></li>
+	<li><a href="#" class="share-google">Googleブックマーク</a></li>
+	<li><a href="#" class="share-yahoo">Yahoo!ブックマーク</a></li>
+</ul>
+
+<script type="text/javascript">
+	(function(){
+		$(".share-twitter").sharelink("twitter");
+		$(".share-facebook").sharelink("facebook");
+		$(".share-livedoor").sharelink("livedoor");
+		$(".share-hatena").sharelink("hatena");
+		$(".share-delicious").sharelink("delicious");
+		$(".share-google").sharelink("google");
+		$(".share-yahoo").sharelink("yahoo");
+	})();
+</script>
+	
+</body>
+</html>
